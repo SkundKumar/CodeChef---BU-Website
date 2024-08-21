@@ -42,21 +42,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "President",
+      icon: "./src/assets/ishanvi2.png",
+      desc: "PRESIDENT"
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Vice-President",
+      icon: "./src/assets/poop2.png",
+      desc: "VICE PRESIDENT"
     },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    
   ];
   
   const technologies = [
