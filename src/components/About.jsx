@@ -25,23 +25,18 @@ const ServiceCard = ({index, title, icon, desc}) =>{
 }
 const About = () => {
   return (
-    <>
+    < >
     <motion.div variants={textVariant()} >
       <p className={styles.sectionSubText}>Introduction</p>
       <h2 className={styles.sectionHeadText}>overview</h2>
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)}
-    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Lorem20
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque ea necessitatibus
-       earum rem, dolorum voluptas
-       error voluptatum obcaecati 
-       voluptatem? ipsum dolor sit amet consectetur 
-       adipisicing elit. Aliquid eveniet corporis,
-        molestiae consequuntur modi odit possimus rem ipsa 
-        \magni vitae?
+    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] flex  '>
+      Our objective is to conduct programming competitions of good standards and motivate the passion towards programming, especially among first-year students, whether you are a coding whiz, or you want to learn from peers and professionals. 
+We are here to help you navigate the exciting world of coding, and to encourage and guide students to participate in national and international programming competition and to bag prizes!
+
     </motion.p>
-    <div className='mt-20 flex flex-wrap gap-10'>
+    <div className='mt-20 flex flex-wrap justify-center gap-10'>
          {services.map((service,index)=>(
           <ServiceCard key = {service.title} index={index} {...service} /> ))}
     </div>

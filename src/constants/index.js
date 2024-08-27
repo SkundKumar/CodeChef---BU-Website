@@ -48,7 +48,7 @@ import {
     },
     {
       title: "Vice-President",
-      icon: "./src/assets/poop2.png",
+      icon: "",
       desc: "VICE PRESIDENT"
     },
     
@@ -111,7 +111,7 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "Multimedia and",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
