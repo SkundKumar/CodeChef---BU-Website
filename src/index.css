@@ -134,6 +134,32 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column; /* Ensure it stacks vertically */
+  justify-content: space-between;
+}
+/* Add this CSS rule */
+.works-container {
+  height: 600px; /* Adjust the height as needed */
+  width: 100%; /* Ensure it takes full width */
+}
+
+
+.work-section {
+  flex-grow: 1; /* This will make the section take available space */
+}
+
+.work-section {
+  min-height: 600px; /* Adjust this value to make the section bigger */
+  padding: 40px 20px; /* Add some padding to create more space inside */
+  margin: 20px 0; /* Optional: Add margin if you want space around the section */
+}
+
 
 @keyframes mulShdSpin {
   0%,
