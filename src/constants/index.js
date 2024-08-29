@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    
+    
   } from "../assets";
   
   export const navLinks = [
@@ -111,55 +113,63 @@ import {
   
   const experiences = [
     {
-      title: "Multimedia and",
-      company_name: "Starbucks",
+      title: "Multimedia and Design",
+      company_name: "Head: Skund Kumar",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Co-Head:",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Tech",
+      company_name: "Head: Chirag",
+      icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Co-Head:",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Finance",
+      company_name: "Head: Naman",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Co-Head:",
+      ],
+    },
+    {
+      title: "Pr and Outreach",
+      company_name: "Head: Yash",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Co-Head:",
+      ],
+    },
+    {
+      title: "Social Media",
+      company_name: "Head: Charu",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Co-Head:",
+      ],
+    },
+    {
+      title: "Content",
+      company_name: "Head: Anshula lal",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Co-Head:",
       ],
     },
   ];
