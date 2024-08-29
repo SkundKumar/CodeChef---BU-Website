@@ -1,23 +1,28 @@
-import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import ParticleBackground from "./components/particleBackground";
+
 export default function App() {
   return (
     <BrowserRouter>
+      
       <div className="relative z-0 bg-hero-pattern ">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar/>
-          <Hero/>
-        </div>
-        <About/>
-        <Experience/>
+      <ParticleBackground className="z-10 w-screen h-screen bg-red-700" />
         
-        <Works/>
-        <Feedbacks/>
+          <Navbar />
+          <Hero />
+        
+        <About />
+        <Experience />
+        <Works />
+        <Feedbacks />
         <div className="relative z-0">
-          <Contact/>
-          <StarsCanvas/>
+          <Contact />
+          <StarsCanvas />
+          
         </div>
       </div>
     </BrowserRouter>
-  )
+  );
 }

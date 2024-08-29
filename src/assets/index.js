@@ -29,7 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import ishanvi2 from "./ishanvi2.png";
+import Skund from "./Skund.jpg";
+import chirag from "./chirag.png";
+import naman from "./naman.jpg";
 export {
   logo,
   backend,
@@ -59,4 +62,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  ishanvi2,
+  Skund,
+  chirag,
+  naman
 };

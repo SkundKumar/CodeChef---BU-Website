@@ -1,14 +1,15 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useEffect, useRef, useState } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  
 
   return (
-    <mesh>
+    <mesh >
       <hemisphereLight intensity={0.95} groundColor='white' />
       <spotLight
         position={[-20, 50, 10]}
@@ -60,6 +61,7 @@ const ComputersCanvas = () => {
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

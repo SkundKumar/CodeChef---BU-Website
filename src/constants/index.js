@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    ishanvi2,
+    Skund,
+    chirag,
+    naman,
+    
+
     
     
   } from "../assets";
@@ -48,11 +54,21 @@ import {
       icon: "./src/assets/ishanvi2.png",
       desc: "PRESIDENT"
     },
+    
+    
+  ];
+  const rest = [
     {
-      title: "Vice-President",
+      title: "vp",
       icon: "",
-      desc: "VICE PRESIDENT"
+      desc: "Vice PRESIDENT"
     },
+    {
+title: "Secretary",
+icon: "./src/assets/adya.jpg",
+desc: "SECRETARY"
+    },
+    
     
   ];
   
@@ -115,17 +131,17 @@ import {
     {
       title: "Multimedia and Design",
       company_name: "Head: Skund Kumar",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: Skund, // Corrected the icon property
+      iconBg: "#383E56", // Enclosed the color value in quotes
       date: "March 2020 - April 2021",
       points: [
-        "Co-Head:",
-      ],
-    },
+          "Co-Head:"
+      ]
+  },
     {
       title: "Tech",
       company_name: "Head: Chirag",
-      icon: starbucks,
+      icon: chirag,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -135,7 +151,7 @@ import {
     {
       title: "Finance",
       company_name: "Head: Naman",
-      icon: starbucks,
+      icon: naman,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -267,4 +283,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, rest };

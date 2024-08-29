@@ -5,6 +5,7 @@ import {styles} from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';  
 import { SectionWrapper } from '../hoc';
+import {rest} from '../constants';
 const ServiceCard = ({index, title, icon, desc}) =>{
   return (
     <Tilt className='xs:w-[250px] w-full'>
@@ -39,6 +40,10 @@ We are here to help you navigate the exciting world of coding, and to encourage 
     <div className='mt-20 flex flex-wrap justify-center gap-10'>
          {services.map((service,index)=>(
           <ServiceCard key = {service.title} index={index} {...service} /> ))}
+    </div>
+    <div className='mt-20 flex flex-wrap justify-center gap-10'>
+         {rest.map((rest,index)=>(
+          <ServiceCard key = {rest.title} index={index} {...rest} /> ))}
     </div>
     </>
   )
