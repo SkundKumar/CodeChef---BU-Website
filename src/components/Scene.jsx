@@ -11,9 +11,9 @@ const Scene = () => {
         cyl.current.rotation.y += 0.002
     })
   return (
-    <group rotation={[0,1.4,0.4]}>
+    <group rotation={[0,-0.5,0.2]}>
     <mesh ref={cyl} >
-          <cylinderGeometry args={[2, 2, 2, 60, 60, true]}/>
+          <cylinderGeometry args={[2.9, 2.9,2.9, 60, 60, true]}/>
           <meshBasicMaterial map={tex} transparent  side={THREE.DoubleSide}/>
         </mesh>
         </group>
