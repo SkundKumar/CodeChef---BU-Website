@@ -5,7 +5,7 @@ import * as THREE from 'three'
 import { Group } from 'three/examples/jsm/libs/tween.module.js'
 import Loader from './Loader';
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import test from './src/assets/test.svg';
+;
 
 const Scene = () => {
     let tex = useTexture('./src/assets/test.svg')

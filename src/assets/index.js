@@ -35,6 +35,7 @@ import chirag from "./chirag.png";
 import naman from "./naman.jpg";
 import adya2 from "./adya2.svg";
 import hero3 from "./hero3.svg";
+import test from "./test.svg";
 export {
   logo,
   backend,
@@ -69,5 +70,6 @@ export {
   chirag,
   naman,
   adya2,
-  hero3
+  hero3,
+  test
 };
