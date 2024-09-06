@@ -27,7 +27,8 @@ import {
     Skund,
     chirag,
     naman,
-    adya2
+    adya2,
+    hero3
     
 
     

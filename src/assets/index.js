@@ -34,6 +34,7 @@ import Skund from "./Skund.jpg";
 import chirag from "./chirag.png";
 import naman from "./naman.jpg";
 import adya2 from "./adya2.svg";
+import hero3 from "./hero3.svg";
 export {
   logo,
   backend,
@@ -67,5 +68,6 @@ export {
   Skund,
   chirag,
   naman,
-  adya2
+  adya2,
+  hero3
 };
