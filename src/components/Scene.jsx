@@ -7,7 +7,7 @@ import Loader from './Loader';
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 const Scene = () => {
-    let tex = useTexture('./src/assets/test2.png')
+    
     let cyl = useRef(null)
     useFrame((state, delta) => {
         cyl.current.rotation.y += 0.002
