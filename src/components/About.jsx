@@ -41,7 +41,7 @@ We are here to help you navigate the exciting world of coding, and to encourage 
          {services.map((service,index)=>(
           <ServiceCard key = {service.title} index={index} {...service} /> ))}
     </div>
-    <div className='mt-20 flex flex-wrap justify-center gap-10'>
+    <div className='mt-20 flex flex-wrap justify-center gap-10 rounded-full'>
          {rest.map((rest,index)=>(
           <ServiceCard key = {rest.title} index={index} {...rest} /> ))}
     </div>

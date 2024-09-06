@@ -27,6 +27,7 @@ import {
     Skund,
     chirag,
     naman,
+    adya2
     
 
     
@@ -65,8 +66,9 @@ import {
     },
     {
 title: "Secretary",
-icon: "./src/assets/adya.jpg",
+icon: "./src/assets/adya2.svg",
 desc: "SECRETARY"
+
     },
     
     

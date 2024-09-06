@@ -33,6 +33,7 @@ import ishanvi2 from "./ishanvi2.png";
 import Skund from "./Skund.jpg";
 import chirag from "./chirag.png";
 import naman from "./naman.jpg";
+import adya2 from "./adya2.svg";
 export {
   logo,
   backend,
@@ -65,5 +66,6 @@ export {
   ishanvi2,
   Skund,
   chirag,
-  naman
+  naman,
+  adya2
 };
