@@ -3,9 +3,11 @@ import { useFrame } from '@react-three/fiber'
 import React, { useRef } from 'react'
 import * as THREE from 'three'
 import { Group } from 'three/examples/jsm/libs/tween.module.js'
+import Loader from './Loader';
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 const Scene = () => {
-    let tex = useTexture('./src/assets/test.svg')
+    let tex = useTexture('./src/assets/test2.png')
     let cyl = useRef(null)
     useFrame((state, delta) => {
         cyl.current.rotation.y += 0.002
