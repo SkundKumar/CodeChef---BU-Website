@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
-import {hero3} from './assets'
 
 export default function App() {
   return (
     <BrowserRouter>
       
-      <div className="relative z-0 bg-hero-pattern ">
+      <div className="relative z-0 bg-hero-pattern  bg-center ">
               
           <Navbar />
           <Hero />
