@@ -16,7 +16,7 @@ const Scene = () => {
     <group rotation={[0,-0.5,0.2]}>
     <mesh ref={cyl} >
           <cylinderGeometry args={[2.9, 2.9,2.9, 60, 60, true]}/>
-          <meshBasicMaterial map={tex} transparent  side={THREE.DoubleSide}/>
+          <meshBasicMaterial  transparent  side={THREE.DoubleSide}/>
         </mesh>
         </group>
   )
