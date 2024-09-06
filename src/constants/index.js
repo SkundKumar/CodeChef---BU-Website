@@ -66,7 +66,7 @@ import {
     },
     {
 title: "Secretary",
-icon: "./src/assets/adya2.svg",
+icon: adya2,
 desc: "SECRETARY"
 
     },
