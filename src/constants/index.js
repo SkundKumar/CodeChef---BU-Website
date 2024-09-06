@@ -52,7 +52,7 @@ import {
   const services = [
     {
       title: "President",
-      icon: "./src/assets/ishanvi2.png",
+      icon: ishanvi2,
       desc: "PRESIDENT"
     },
     
