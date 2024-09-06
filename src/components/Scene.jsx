@@ -5,10 +5,10 @@ import * as THREE from 'three'
 import { Group } from 'three/examples/jsm/libs/tween.module.js'
 import Loader from './Loader';
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-;
+import {test} from '../assets';
 
 const Scene = () => {
-    let tex = useTexture('./src/assets/test.svg')
+    let tex = useTexture(test)
     let cyl = useRef(null)
     useFrame((state, delta) => {
         cyl.current.rotation.y += 0.002
