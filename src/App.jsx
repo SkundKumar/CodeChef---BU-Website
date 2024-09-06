@@ -13,7 +13,7 @@ export default function App() {
         
         <About />
         <Experience />
-       
+       <Works />
         
         <div className="relative z-0">
           
