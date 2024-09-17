@@ -35,8 +35,8 @@ const Works = () => {
   }, []);
 
   const imageStyle = {
-    width: '18rem',
-    height: '18rem',
+    width: '20rem',
+    height: '20rem',
     objectFit: 'cover',
     borderRadius: '0.5rem',
     boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)', // Glow effect
