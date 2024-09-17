@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Scene from './Scene';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import { SectionWrapper } from '../hoc';
-
+import { motion } from 'framer-motion'; // Import Framer Motion
 
 const Works = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -31,17 +31,12 @@ const Works = () => {
   }, []);
 
   const imageStyle = {
-    width: '12rem',
-    height: '12rem',
+    width: '18rem',
+    height: '18rem',
     objectFit: 'cover',
     borderRadius: '0.5rem',
     boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)', // Glow effect
     transition: 'box-shadow 0.3s ease-in-out',
-  };
-
-  const hoverImageStyle = {
-    ...imageStyle,
-    boxShadow: '0 0 25px rgba(102, 180, 180, 1.0)', // More intense glow on hover
   };
 
   return (
@@ -54,46 +49,19 @@ const Works = () => {
           {isMobile ? (
             // Render the images if the screen width is less than 600px
             <div className="flex justify-center flex-wrap gap-5 mt-10">
-              <div className="relative">
-                <img
-                  src="./src/assets/event1.jpg"
-                  alt="Ishanvi"
-                  style={imageStyle}
-                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
-                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
-                />
-                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
-              </div>
-              <div className="relative">
-                <img
-                  src="./src/assets/event2.jpg"
-                  alt="Ishanvi"
-                  style={imageStyle}
-                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
-                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
-                />
-                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
-              </div>
-              <div className="relative">
-                <img
-                  src="./src/assets/event3.jpg"
-                  alt="Ishanvi"
-                  style={imageStyle}
-                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
-                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
-                />
-                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
-              </div>
-              <div className="relative">
-                <img
-                  src="./src/assets/event4.jpg"
-                  alt="Ishanvi"
-                  style={imageStyle}
-                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
-                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
-                />
-                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
-              </div>
+              {[1, 2, 3, 4].map((event, index) => (
+                <div key={index} className="relative">
+                  <motion.img
+                    src={`./src/assets/event${event}.jpg`}
+                    alt={`Event ${event}`}
+                    style={imageStyle}
+                    whileHover={{ scale: 1.05, boxShadow: '0 0 25px rgba(102, 180, 180, 1.0)' }}
+                    initial={{ scale: 1, boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)' }}
+                    transition={{ duration: 0.3 }}
+                  />
+                  <h3 className='flex justify-center font-mono font-bold mt-2'>Event {event}</h3>
+                </div>
+              ))}
             </div>
           ) : (
             // Render the 3D scene if the screen width is larger than 600px
