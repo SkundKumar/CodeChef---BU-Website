@@ -56,14 +56,7 @@ const ComputersCanvas = () => {
 
   return (
     <>
-      {isMobile ? (
-        // Render the image if the screen is small
-        <img
-          src= {ishanvi2}
-          alt="Ishanvi"
-          style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-        />
-      ) : (
+       (
         // Render the 3D model if the screen is not small
         <Canvas
           frameloop="demand"
@@ -83,7 +76,7 @@ const ComputersCanvas = () => {
 
           <Preload all />
         </Canvas>
-      )}
+      )
     </>
   );
 };
