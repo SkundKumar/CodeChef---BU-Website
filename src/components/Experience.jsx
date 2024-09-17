@@ -32,11 +32,11 @@ const ExperienceCard = ({ experience }) => (
       <h3 className='text-white text-[24px] font-bold'>
         {experience.title}
       </h3>
-      <p className='text-secondary text-[16px] font-semibold'>
+      <h1 className='text-secondary text-[20px] font-semibold mt-2'>
         {experience.company_name}
-      </p>
+      </h1>
       
-      <div className='flex justify-end h-20 w-20'>
+      <div className='flex justify-end h-20 w-20 mt-3'>
         <img
           src={experience.icon}  
           className='w-full h-full object-cover rounded-full'
@@ -46,13 +46,13 @@ const ExperienceCard = ({ experience }) => (
      
       {experience.co_head && (
         <div className="mt-4 flex justify-between items-center">
-          <h4 className='text-white text-[18px] font-semibold'>
+          <h4 className='text-secondary text-[16px] font-semibold font-mono'>
             {experience.co_head}
           </h4>
           <div className='flex justify-end h-20 w-20'>
             <img
               src={experience.icon2}  
-              className='w-full h-full object-cover rounded-full'
+              className='w-full h-full object-cover rounded-xl'
             />
           </div>
         </div>
@@ -61,13 +61,13 @@ const ExperienceCard = ({ experience }) => (
      
       {experience.co_head2 && (
         <div className="mt-4 flex justify-between items-center">
-          <h4 className='text-white text-[18px] font-semibold'>
+          <h4 className='text-secondary text-[16px] font-semibold font-mono'>
             {experience.co_head2}
           </h4>
-          <div className='flex justify-end h-20 w-20'>
+          <div className='flex justify-end h-20 w-20 mt-4'>
             <img
               src={experience.icon_co_Head2}  
-              className='w-full h-full object-cover rounded-full'
+              className='w-full h-full object-cover rounded-xl'
             />
           </div>
         </div>

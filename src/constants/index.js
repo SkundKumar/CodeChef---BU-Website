@@ -33,7 +33,9 @@ import {
     event1,
     event2,
     event3,
-    event4
+    event4,
+    anshula,
+    karan
     
 
     
@@ -201,7 +203,7 @@ desc: "SECRETARY"
     {
       title: "Management",
       company_name: "Head: Karan",
-      icon: Skund,
+      icon: karan,
       co_head:"Co-Head : Navya",
       co_head2:"Co-Head : Tis...forgor",
       icon2: Skund,
@@ -236,7 +238,7 @@ desc: "SECRETARY"
     {
       title: "Content",
       company_name: "Head: Anshula lal",
-      icon: starbucks,
+      icon: anshula,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
