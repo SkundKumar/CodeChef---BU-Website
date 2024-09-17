@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       {isMobile
-        ? <img src={ishanvi2} alt="hero" className='w-full h-full object-contain' />
+        ? <img src={ishanvi2} alt="hero" className='w-full h-full object-contain mt-20' />
         : <ComputersCanvas />
       }
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
