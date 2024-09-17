@@ -29,7 +29,11 @@ import {
     naman,
     adya2,
     hero3,
-    santosh
+    santosh,
+    event1,
+    event2,
+    event3,
+    event4
     
 
     
@@ -55,6 +59,30 @@ import {
     {
       title: "President",
       icon: ishanvi2,
+      desc: "PRESIDENT"
+    },
+    
+    
+  ];
+  const events = [
+    {
+      
+      icon: event1,
+      desc: "PRESIDENT"
+    },
+    {
+      
+      icon: event2,
+      desc: "PRESIDENT"
+    },
+    {
+      
+      icon: event3,
+      desc: "PRESIDENT"
+    },
+    {
+      
+      icon: event4,
       desc: "PRESIDENT"
     },
     
@@ -310,4 +338,4 @@ desc: "SECRETARY"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, rest };
+  export { services, technologies, experiences, testimonials, projects, rest, events };

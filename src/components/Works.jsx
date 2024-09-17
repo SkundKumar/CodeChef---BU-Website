@@ -5,6 +5,10 @@ import Scene from './Scene';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import { SectionWrapper } from '../hoc';
 import { motion } from 'framer-motion'; // Import Framer Motion
+import { events } from '../constants';
+
+// Sample event data
+
 
 const Works = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -49,17 +53,17 @@ const Works = () => {
           {isMobile ? (
             // Render the images if the screen width is less than 600px
             <div className="flex justify-center flex-wrap gap-5 mt-10">
-              {[1, 2, 3, 4].map((event, index) => (
+              {events.map((event, index) => (
                 <div key={index} className="relative">
                   <motion.img
-                    src={`./src/assets/event${event}.jpg`}
-                    alt={`Event ${event}`}
+                    src={event.icon}
+                    alt={event.desc}
                     style={imageStyle}
                     whileHover={{ scale: 1.05, boxShadow: '0 0 25px rgba(102, 180, 180, 1.0)' }}
                     initial={{ scale: 1, boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)' }}
                     transition={{ duration: 0.3 }}
                   />
-                  <h3 className='flex justify-center font-mono font-bold mt-2'>Event {event}</h3>
+                  <h3 className='flex justify-center font-mono font-bold mt-2'>{event.desc}</h3>
                 </div>
               ))}
             </div>
