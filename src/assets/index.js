@@ -36,6 +36,7 @@ import naman from "./naman.jpg";
 import adya2 from "./adya2.svg";
 import hero3 from "./hero3.svg";
 import test from "./test.svg";
+import santosh from "./santosh.jpg";
 export {
   logo,
   backend,
@@ -71,5 +72,6 @@ export {
   naman,
   adya2,
   hero3,
-  test
+  test,
+  santosh
 };

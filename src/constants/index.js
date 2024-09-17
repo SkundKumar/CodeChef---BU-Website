@@ -28,7 +28,8 @@ import {
     chirag,
     naman,
     adya2,
-    hero3
+    hero3,
+    santosh
     
 
     
@@ -134,6 +135,9 @@ desc: "SECRETARY"
     {
       title: "Multimedia and Design",
       company_name: "Head: Skund Kumar",
+      icon2: santosh,
+  
+      co_head:"Co-Head: Santosh",
       icon: Skund, // Corrected the icon property
       iconBg: "#383E56", // Enclosed the color value in quotes
       date: "March 2020 - April 2021",
@@ -144,6 +148,10 @@ desc: "SECRETARY"
     {
       title: "Tech",
       company_name: "Head: Chirag",
+      co_head:"Co-Head : dummy",
+      co_head2:"Co-Head : dummy",
+      icon2: chirag,
+      icon_co_Head2: chirag,
       icon: chirag,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -155,6 +163,21 @@ desc: "SECRETARY"
       title: "Finance",
       company_name: "Head: Naman",
       icon: naman,
+     
+      iconBg: "#383E56",
+      date: "March 2020 - April 2021",
+      points: [
+        "Co-Head:",
+      ],
+    },
+    {
+      title: "Management",
+      company_name: "Head: Karan",
+      icon: Skund,
+      co_head:"Co-Head : Navya",
+      co_head2:"Co-Head : Tis...forgor",
+      icon2: Skund,
+      icon_co_Head2: Skund,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -163,8 +186,9 @@ desc: "SECRETARY"
     },
     {
       title: "Pr and Outreach",
-      company_name: "Head: Yash",
-      icon: starbucks,
+      company_name: "Head: ",
+      co_head:"Co-Head : dummy",
+      
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -173,8 +197,8 @@ desc: "SECRETARY"
     },
     {
       title: "Social Media",
-      company_name: "Head: Charu",
-      icon: starbucks,
+      company_name: "Head: ",
+      
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
