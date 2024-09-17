@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Scene from './Scene';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import { SectionWrapper } from '../hoc';
-import ishanviImage from '../assets/ishanvi2.png'; // Import your image
+
 
 const Works = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -13,7 +13,7 @@ const Works = () => {
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 600px)");
 
-    // Set the initial value of the `isMobile` state variable
+    // Set the initial value of the isMobile state variable
     setIsMobile(mediaQuery.matches);
 
     // Define a callback function to handle changes to the media query
@@ -30,6 +30,20 @@ const Works = () => {
     };
   }, []);
 
+  const imageStyle = {
+    width: '12rem',
+    height: '12rem',
+    objectFit: 'cover',
+    borderRadius: '0.5rem',
+    boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)', // Glow effect
+    transition: 'box-shadow 0.3s ease-in-out',
+  };
+
+  const hoverImageStyle = {
+    ...imageStyle,
+    boxShadow: '0 0 25px rgba(102, 180, 180, 1.0)', // More intense glow on hover
+  };
+
   return (
     <div>
       <div>
@@ -42,31 +56,43 @@ const Works = () => {
             <div className="flex justify-center flex-wrap gap-5 mt-10">
               <div className="relative">
                 <img
-                  src={ishanviImage}
+                  src="./src/assets/event1.jpg"
                   alt="Ishanvi"
-                  className="w-48 h-48 object-cover rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"
+                  style={imageStyle}
+                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
+                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
                 />
+                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
               </div>
               <div className="relative">
                 <img
-                  src={ishanviImage}
+                  src="./src/assets/event2.jpg"
                   alt="Ishanvi"
-                  className="w-48 h-48 object-cover rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"
+                  style={imageStyle}
+                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
+                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
                 />
+                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
               </div>
               <div className="relative">
                 <img
-                  src={ishanviImage}
+                  src="./src/assets/event3.jpg"
                   alt="Ishanvi"
-                  className="w-48 h-48 object-cover rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"
+                  style={imageStyle}
+                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
+                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
                 />
+                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
               </div>
               <div className="relative">
                 <img
-                  src={ishanviImage}
+                  src="./src/assets/event4.jpg"
                   alt="Ishanvi"
-                  className="w-48 h-48 object-cover rounded-lg transform transition duration-500 hover:scale-105 hover:shadow-xl"
+                  style={imageStyle}
+                  onMouseEnter={(e) => e.currentTarget.style.boxShadow = hoverImageStyle.boxShadow}
+                  onMouseLeave={(e) => e.currentTarget.style.boxShadow = imageStyle.boxShadow}
                 />
+                <h3 className='flex justify-center font-mono font-bold mt-2'>Ishanvi</h3>
               </div>
             </div>
           ) : (
