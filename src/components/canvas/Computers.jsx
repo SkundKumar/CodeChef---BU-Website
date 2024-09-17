@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
-
+import { ishanvi2 } from "../../assets";
 
 
 const Computers = ({ isMobile }) => {
@@ -59,7 +59,7 @@ const ComputersCanvas = () => {
       {isMobile ? (
         // Render the image if the screen is small
         <img
-          src="./src/assets/ishanvi2.png"
+          src= {ishanvi2}
           alt="Ishanvi"
           style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
         />
