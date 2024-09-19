@@ -40,7 +40,8 @@ import {
     manan2,
     tis,
     navya,
-    coheadS
+    coheadS,
+    tcohead
 
     
 
@@ -193,10 +194,12 @@ desc: "SECRETARY"
     {
       title: "Tech",
       company_name: "Head: Chirag",
-     /* co_head:"Co-Head : dummy",
+      co_head:"Co-Head : Vashu",
       co_head2:"Co-Head : dummy",
-      icon2: chirag,
-      icon_co_Head2: chirag,*/
+      co_head3:"Co-Head : Anshula",
+      icon2: tcohead,
+      icon_co_Head2: chirag,
+      icon_co_Head3: chirag,
       icon: chirag,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",

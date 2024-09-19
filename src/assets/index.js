@@ -48,6 +48,7 @@ import adyanew from "./adyanew.png";
 import tis from "./tis.jpg";
 import navya from "./navya.jpg";
 import coheadS from "./coheadS.jpg";
+import tcohead from "./tcohead.jpg";
 export {
   logo,
   backend,
@@ -95,5 +96,6 @@ export {
   manan2,
   tis,
   navya,
-  coheadS
+  coheadS,
+  tcohead
 };

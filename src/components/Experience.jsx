@@ -72,6 +72,19 @@ const ExperienceCard = ({ experience }) => (
           </div>
         </div>
       )}
+       {experience.co_head3 && (
+        <div className="mt-4 flex justify-between items-center">
+          <h4 className='text-secondary text-[16px] font-semibold font-mono'>
+            {experience.co_head3}
+          </h4>
+          <div className='flex justify-end h-20 w-20 mt-4'>
+            <img
+              src={experience.icon_co_Head3}  
+              className='w-full h-full object-cover rounded-xl'
+            />
+          </div>
+        </div>
+      )}
       
     </div>
   </VerticalTimelineElement>
