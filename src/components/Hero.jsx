@@ -29,10 +29,10 @@ const Hero = () => {
             <div className='w-1 sm:h-80 h-40 white-gradient ml-2' />
           </div>
           <div className='mt-4 ml-3'>
-              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_8px_rgba(255,255,155,0.5)]`}>
+              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_60px_rgba(255,255,155,0.5)]`}>
                 We are 
               </h1>
-              <h1 className={`${styles.heroHeadText} text-[#d6c2fd] drop-shadow-[0_0_16px_rgba(255,255,155,0.5)]`}>
+              <h1 className={`${styles.heroHeadText} text-[#d6c2fd] drop-shadow-[0_0_30px_rgba(255,255,155,0.5)]`}>
                 CodeChef | BU
               </h1>
 
