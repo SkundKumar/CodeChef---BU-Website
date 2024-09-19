@@ -20,7 +20,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className='relative w-full h-screen mx-autodrop-shadow-[0_0_60px_rgba(214,194,253,0.5)] '>
+    <section className='relative w-full h-screen mx-autodrop-shadow-[0_0_60px_rgba(214,194,253,1.5)] '>
       <div className="flex  flex-col justify-center items-center h-full ">
         <div className='w-full h-full relative flex justify-center items-center '>
         <div className={"sm:px-16 absolute px-6 max-w-7xl mx-auto flex flex-row items-start "}>
