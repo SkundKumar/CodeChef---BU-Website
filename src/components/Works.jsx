@@ -52,15 +52,15 @@ const Works = () => {
         <div>
           {isMobile ? (
             // Render the images if the screen width is less than 600px
-            <div className="flex justify-center flex-wrap gap-5 mt-10">
+            <div className="flex justify-center  flex-wrap gap-5 mt-10">
               {events.map((event, index) => (
                 <div key={index} className="relative">
                   <motion.img
                     src={event.icon}
                     alt={event.desc}
                     style={imageStyle}
-                    whileHover={{ scale: 1.05, boxShadow: '0 0 25px rgba(102, 180, 180, 1.0)' }}
-                    initial={{ scale: 1, boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)' }}
+                    whileHover={{ scale: 2.0, boxShadow: '0 0 80px rgba(164,119,253,0.8)' }}
+                    initial={{ scale: 1, boxShadow: '0 0 80px rgba(164,119,253,0.8)' }}
                     transition={{ duration: 0.3 }}
                   />
                   <h3 className='flex justify-center font-mono font-bold mt-2'>{event.desc}</h3>
