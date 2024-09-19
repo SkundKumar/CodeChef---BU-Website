@@ -8,7 +8,7 @@ export default function App() {
     <BrowserRouter>
       <ParallaxProvider>
         <div className="relative z-0">
-          <Parallax speed={-10}>
+          <Parallax speed={-14}>
             <div className="hero-section">
               <Navbar />
               <Hero />
@@ -16,14 +16,16 @@ export default function App() {
           </Parallax>
 
           {/* Other sections */}
-          <Parallax speed={5}>
+          <Parallax speed={20}>
             <div className="about-section">
               <About />
             </div>
           </Parallax>
-
+          
           <Experience />
+          <Parallax speed={-10}>
           <Works />
+          </Parallax>
           <StarsCanvas />
         </div>
       </ParallaxProvider>
