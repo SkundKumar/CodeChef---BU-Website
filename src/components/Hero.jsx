@@ -29,17 +29,17 @@ const Hero = () => {
             <div className='w-1 sm:h-80 h-40 white-gradient ml-2' />
           </div>
           <div className='mt-4 ml-3'>
-              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_20px_rgba(214,194,253,0.5)]`}>
+              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_70px_rgba(164,119,253,1.8)]`}>
                 We are 
               </h1>
-              <h1 className={`${styles.heroHeadText} text-[rgb(214,194,253)] drop-shadow-[0_0_20px_rgba(214,194,253,0.5)]`}>
+              <h1 className={`${styles.heroHeadText} text-[rgb(214,194,253)] drop-shadow-[0_0_70px_rgba(164,119,253,1.8)]`}>
                 CodeChef | BU
               </h1>
 
-              <p className={`mt-3 ml-3 font-sans text-[rgb(206,205,206)] drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]`}>
+              <p className={`mt-3 ml-3 font-sans text-[rgb(206,205,206)] drop-shadow-[0_0_70px_rgba(255,255,255,1.8)]`}>
                 CodeChef’s university-based community chapter promotes
               </p>
-              <p className={`ml-3 font-sans text-[rgb(206,205,206)] drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]`}>
+              <p className={`ml-3 font-sans text-[rgb(206,205,206)] drop-shadow-[0_0_60px_rgba(255,255,255,1.6)]`}>
                 the art of programming among the student community.
               </p>
             </div>
