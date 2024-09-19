@@ -28,17 +28,21 @@ const Hero = () => {
             <div className='w-5 h-5 ml-2 rounded-sm bg-[#e9dfff]' />
             <div className='w-1 sm:h-80 h-40 white-gradient ml-2' />
           </div>
-          <div className='mt-4'>
-            <h1 className={`${styles.heroHeadText}  `}>We are </h1>
-            <h1 className={`${styles.heroHeadText} text-[#d6c2fd]`} >CodeChef | BU</h1>
+          <div className='mt-4 ml-3'>
+              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_8px_rgba(255,255,155,0.5)]`}>
+                We are 
+              </h1>
+              <h1 className={`${styles.heroHeadText} text-[#d6c2fd] drop-shadow-[0_0_16px_rgba(255,255,155,0.5)]`}>
+                CodeChef | BU
+              </h1>
 
-            <p className={`mt-3 ml-3 font-sans text-[rgb(206,205,206)]`}>
-              CodeChef’s university-based community chapter promotes
-            </p>
-            <p className={`ml-3 font-sans text-[rgb(206,205,206)]`}>
-              the art of programming among the student community.
-            </p>
-          </div>
+              <p className={`mt-3 ml-3 font-sans text-[rgb(206,205,206)] drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]`}>
+                CodeChef’s university-based community chapter promotes
+              </p>
+              <p className={`ml-3 font-sans text-[rgb(206,205,206)] drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]`}>
+                the art of programming among the student community.
+              </p>
+            </div>
         </div>
         </div>
 
