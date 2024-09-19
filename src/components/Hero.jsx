@@ -20,7 +20,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className='relative w-full h-screen mx-autodrop-shadow-[0_0_20px_rgba(255,255,155,0.5)] '>
+    <section className='relative w-full h-screen mx-autodrop-shadow-[0_0_60px_rgba(214,194,253,0.5)] '>
       <div className="flex  flex-col justify-center items-center h-full ">
         <div className='w-full h-full relative flex justify-center items-center '>
         <div className={"sm:px-16 absolute px-6 max-w-7xl mx-auto flex flex-row items-start "}>
@@ -29,10 +29,10 @@ const Hero = () => {
             <div className='w-1 sm:h-80 h-40 white-gradient ml-2' />
           </div>
           <div className='mt-4 ml-3'>
-              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_20px_rgba(255,255,155,0.5)]`}>
+              <h1 className={`${styles.heroHeadText} text-white drop-shadow-[0_0_20px_rgba(214,194,253,0.5)]`}>
                 We are 
               </h1>
-              <h1 className={`${styles.heroHeadText} text-[#d6c2fd] drop-shadow-[0_0_20px_rgba(255,255,155,0.5)]`}>
+              <h1 className={`${styles.heroHeadText} text-[rgb(214,194,253)] drop-shadow-[0_0_20px_rgba(214,194,253,0.5)]`}>
                 CodeChef | BU
               </h1>
 
