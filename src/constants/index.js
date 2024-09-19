@@ -72,6 +72,15 @@ import {
     
     
   ];
+  const bg = [
+    {
+      
+      icon: hero3,
+     
+    },
+    
+    
+  ];
   const events = [
     {
       
@@ -347,4 +356,4 @@ desc: "SECRETARY"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, rest, events };
+  export { services, technologies, experiences, testimonials, projects, rest, events,bg };

@@ -35,8 +35,8 @@ const Works = () => {
   }, []);
 
   const imageStyle = {
-    width: '20rem',
-    height: '20rem',
+    width: '25rem',
+    height: '25rem',
     objectFit: 'cover',
     borderRadius: '0.5rem',
     boxShadow: '0 0 15px rgba(102, 145, 180, 0.8)', // Glow effect
@@ -59,8 +59,8 @@ const Works = () => {
                     src={event.icon}
                     alt={event.desc}
                     style={imageStyle}
-                    whileHover={{ scale: 2.0, boxShadow: '0 0 80px rgba(164,119,253,0.8)' }}
-                    initial={{ scale: 1, boxShadow: '0 0 80px rgba(164,119,253,0.8)' }}
+                    whileHover={{ scale: 2.0, boxShadow: '0 0 80px rgba(164,119,253,0.5)' }}
+                    initial={{ scale: 1, boxShadow: '0 0 80px rgba(164,119,253,0.5)' }}
                     transition={{ duration: 0.3 }}
                   />
                   <h3 className='flex justify-center font-mono font-bold mt-2'>{event.desc}</h3>
