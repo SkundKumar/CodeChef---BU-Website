@@ -45,6 +45,9 @@ import anshula from "./anshula.jpg";
 import karan from "./karan.jpg";
 import manan2 from "./manan2.png";
 import adyanew from "./adyanew.png";
+import tis from "./tis.jpg";
+import navya from "./navya.jpg";
+import coheadS from "./coheadS.jpg";
 export {
   logo,
   backend,
@@ -89,5 +92,8 @@ export {
   anshula,
   karan,
   adyanew,
-  manan2
+  manan2,
+  tis,
+  navya,
+  coheadS
 };

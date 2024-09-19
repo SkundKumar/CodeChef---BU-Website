@@ -37,7 +37,10 @@ import {
     anshula,
     karan,
     adyanew,
-    manan2
+    manan2,
+    tis,
+    navya,
+    coheadS
 
     
 
@@ -207,10 +210,10 @@ desc: "SECRETARY"
       title: "Management",
       company_name: "Head: Karan",
       icon: karan,
-      /*co_head:"Co-Head : Navya",
-      co_head2:"Co-Head : Tis...forgor",
-      icon2: Skund,
-      icon_co_Head2: Skund,*/
+      co_head:"Co-Head : Navya",
+      co_head2:"Co-Head : Tishya",
+      icon2: navya,
+      icon_co_Head2: tis,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -231,7 +234,8 @@ desc: "SECRETARY"
     {
       title: "Social Media",
       company_name: "Head: ",
-      
+      co_head:"Co-Head : Navya",
+      icon2: coheadS,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
