@@ -1,27 +1,32 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
-import { bg } from './constants';
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import { About, Experience, Hero, Navbar, Works, StarsCanvas } from './components';
 
 export default function App() {
   return (
     <BrowserRouter>
-      
-      <div className="relative z-0 bg-primary bg-center ">
-              
-          <Navbar />
-          <Hero />
-        
-        <About />
-        <Experience />
-       <Works />
-        
+      <ParallaxProvider>
         <div className="relative z-0">
-          
+          <Parallax speed={-10}>
+            <div className="hero-section">
+              <Navbar />
+              <Hero />
+            </div>
+          </Parallax>
+
+          {/* Other sections */}
+          <Parallax speed={5}>
+            <div className="about-section">
+              <About />
+            </div>
+          </Parallax>
+
+          <Experience />
+          <Works />
           <StarsCanvas />
-          
         </div>
-      </div>
+      </ParallaxProvider>
     </BrowserRouter>
   );
 }
