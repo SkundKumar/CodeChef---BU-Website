@@ -28,7 +28,7 @@ const Hero = () => {
         <div className='w-full h-full relative flex justify-center items-center '>
         <div className={"sm:px-16 absolute px-6 max-w-7xl mx-auto flex flex-row items-start "}>
         <ParallaxProvider>
-        <Parallax speed={0}>
+        <Parallax speed={-7}>
           <div className='flex flex-col justify-center items-center mt-5'>
             <div className='w-5 h-5 ml-2 rounded-sm  bg-[#e9dfff]' />
             <div className='w-1 sm:h-80 h-40 white-gradient ml-2' />
