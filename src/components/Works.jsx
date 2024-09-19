@@ -6,7 +6,7 @@ import { Bloom, EffectComposer } from '@react-three/postprocessing';
 import { SectionWrapper } from '../hoc';
 import { motion } from 'framer-motion'; // Import Framer Motion
 import { events } from '../constants';
-
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 // Sample event data
 
 
@@ -52,9 +52,13 @@ const Works = () => {
         <div>
           {isMobile ? (
             // Render the images if the screen width is less than 600px
+           
             <div className="flex justify-center  flex-wrap gap-5 mt-10">
               {events.map((event, index) => (
+                
                 <div key={index} className="relative">
+                   <ParallaxProvider>
+                   <Parallax speed={10}>
                   <motion.img
                     src={event.icon}
                     alt={event.desc}
@@ -63,10 +67,16 @@ const Works = () => {
                     initial={{ scale: 1, boxShadow: '0 0 80px rgba(164,119,253,0.2)' }}
                     transition={{ duration: 0.3 }}
                   />
+                  
+                   
                   <h3 className='flex justify-center font-mono font-bold mt-2'>{event.desc}</h3>
+                  </Parallax>
+                  </ParallaxProvider>
                 </div>
+                
               ))}
             </div>
+            
           ) : (
             // Render the 3D scene if the screen width is larger than 600px
             <div className="w-full h-screen">
