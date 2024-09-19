@@ -43,6 +43,8 @@ import event3 from "./event3.jpg";
 import event4 from "./event4.jpg";
 import anshula from "./anshula.jpg";
 import karan from "./karan.jpg";
+import manan2 from "./manan2.png";
+import adyanew from "./adyanew.png";
 export {
   logo,
   backend,
@@ -85,5 +87,7 @@ export {
   event3,
   event4,
   anshula,
-  karan
+  karan,
+  adyanew,
+  manan2
 };

@@ -35,7 +35,10 @@ import {
     event3,
     event4,
     anshula,
-    karan
+    karan,
+    adyanew,
+    manan2
+
     
 
     
@@ -93,12 +96,12 @@ import {
   const rest = [
     {
       title: "vp",
-      icon: "",
+      icon: manan2,
       desc: "Vice PRESIDENT"
     },
     {
 title: "Secretary",
-icon: adya2,
+icon: adyanew,
 desc: "SECRETARY"
 
     },
@@ -178,10 +181,10 @@ desc: "SECRETARY"
     {
       title: "Tech",
       company_name: "Head: Chirag",
-      co_head:"Co-Head : dummy",
+     /* co_head:"Co-Head : dummy",
       co_head2:"Co-Head : dummy",
       icon2: chirag,
-      icon_co_Head2: chirag,
+      icon_co_Head2: chirag,*/
       icon: chirag,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -204,17 +207,17 @@ desc: "SECRETARY"
       title: "Management",
       company_name: "Head: Karan",
       icon: karan,
-      co_head:"Co-Head : Navya",
+      /*co_head:"Co-Head : Navya",
       co_head2:"Co-Head : Tis...forgor",
       icon2: Skund,
-      icon_co_Head2: Skund,
+      icon_co_Head2: Skund,*/
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
         "Co-Head:",
       ],
     },
-    {
+    /*{
       title: "Pr and Outreach",
       company_name: "Head: ",
       co_head:"Co-Head : dummy",
@@ -224,7 +227,7 @@ desc: "SECRETARY"
       points: [
         "Co-Head:",
       ],
-    },
+    },*/
     {
       title: "Social Media",
       company_name: "Head: ",
